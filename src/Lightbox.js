@@ -12,7 +12,7 @@ export default function Lightbox(props){
               </div>
         
               <p>  The objective of the game is to guess the exact positions of the colors in the computer's sequence.</p>
-        
+              <p> To select a color simply click on the colors in the first two row</p>
               <p>  After filling a line with your guesses and clicking on the 'Submit' button, the computer responses with the result of your guess. Here is a sample guess: </p>
               <div id ="computerCodeExample">
                 <img src={require('./images/guess.png')} alt="guess"></img>

@@ -17,7 +17,7 @@ export default function Endgame(props) {
             <div className="outer"><div className="answer"> {props.answer.map((color, i) => {
                return <div className="bc" key={color + i} style={{ background: `radial-gradient(circle at 50px 50px, #000,${color}` }}></div>
             })}</div></div>
-            <button className="reset">RESET GAME</button>
+            <button onClick={()=>window.location.reload()} className="reset">RESET GAME</button>
         </div>
 
     )
